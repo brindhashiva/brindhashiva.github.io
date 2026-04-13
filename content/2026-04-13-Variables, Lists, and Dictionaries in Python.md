@@ -14,14 +14,11 @@ Have you ever wondered how Python programs store and manage data efficiently wit
 **Types of Variables** — Python supports multiple data types like integer, float, string, and boolean.
 
 ```python
-
-name = "Brindha"
-
 x = 10          # Integer
 y = 3.14        # Float
 text = "Hello"  # String
 is_valid = True # Boolean
-
+```
 
 ## Lists in Python
 
@@ -41,7 +38,7 @@ items.pop()           # Remove
 
 for item in items:
     print(item)
-
+```
 
 ## Dictionaries in Python
 
@@ -49,7 +46,11 @@ for item in items:
 
 **Dictionary Operations** — You can add, update, remove, and access data using keys.
 
-student = {"name": "Brindha", "age": 20}
+```python
+student = {
+    "name": "Brindha",
+    "age": 20
+}
 
 print(student["name"])     # Access
 print(student.get("age"))  # Safe access
@@ -58,6 +59,7 @@ student["age"] = 21        # Update
 student["course"] = "AI & DS"
 
 student.pop("age")         # Remove
+```
 
 ## Why These Concepts Matter
 - Variables store single values

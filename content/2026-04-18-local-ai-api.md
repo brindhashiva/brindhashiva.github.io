@@ -1,25 +1,21 @@
-Title: Local AI API
-Date: 2026-01-01
+Title: Local AI API with FastAPI
+Date: 2026-04-18
 Category: GenAI
 Tags: GenAI, FastAPI, llama.cpp, LocalAI, Python
-Slug: local-ai-api
+Slug: day6-local-ai-api
 Status: Published
 
-Today I connected FastAPI with a local LLM and built a simple AI API on my system. This was an important step because it joined backend development with local AI inference.
+Today I built a local AI API by integrating FastAPI with a locally running LLM. This was an important step because it connected backend development with AI model execution.
 
-## Key Concepts
-
-**FastAPI** — A Python framework used to build APIs quickly and clearly.
-
-**Pydantic Schema** — A way to define input fields like prompt, max_tokens, and temperature.
-
-**llama.cpp Integration** — Connecting a local GGUF model with FastAPI so the API can generate responses.
+Until now, I had used APIs and also tested a local model separately. But today, I combined both and created an endpoint where a prompt is sent and the model returns a response.
 
 ## What I Did
 
-I loaded my GGUF model once and created a POST endpoint called `/generate`. This endpoint accepts a prompt and sends it to the local model. The response is returned as JSON.
+I created a POST endpoint called `/generate` using FastAPI. This endpoint accepts a prompt along with parameters like max_tokens and temperature.
 
-I tested the API using Swagger UI and confirmed that the request and response flow worked correctly.
+The request is sent to a local GGUF model using llama.cpp, and the generated response is returned in JSON format.
+
+The model is loaded once at startup, which improves performance and avoids reloading for every request.
 
 ## Code Example
 
@@ -63,19 +59,19 @@ def generate_text(request: PromptRequest):
 ## Learnings
 
 - FastAPI can be connected with a local LLM  
-- A model can be loaded once and reused for requests  
-- Swagger UI makes API testing easy  
-- Local AI APIs can work without cloud services  
+- Model can be loaded once and reused  
+- Swagger UI helps test APIs easily  
+- Local AI APIs can work without internet  
 
 ## Challenges
 
-- Faced event loop issues while running FastAPI in Jupyter  
+- Faced event loop issues in Jupyter  
 - Understood that /generate works only with POST method  
-- Improved prompt structure for better output  
+- Improved prompt clarity for better results  
 
 ## Conclusion
 
-This task helped me understand how to turn a local model into a working API. It felt like building the base of a real AI product using my own system.
+This task helped me understand how to turn a local AI model into a working API. It felt like building the foundation of a real AI system.
 
 - Prompt goes in  
 - Model generates response  

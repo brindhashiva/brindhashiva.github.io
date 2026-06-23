@@ -3,7 +3,7 @@ Date: 2026-06-23
 Category: GenAI
 Tags: GenAI, LLM, Prompt Engineering, Transformers, AI Architecture
 Slug: journey-of-a-prompt-ai-pipeline
-Status: draft
+Status: published
 
 A simple prompt can trigger billions of mathematical operations inside an AI model. From tokenization to attention mechanisms and probability-based text generation, every response is the result of a carefully engineered pipeline. This article explores what happens behind the scenes between your question and an AI's answer.
 

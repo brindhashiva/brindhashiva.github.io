@@ -1,5 +1,5 @@
 Title: PEFT, LoRA, and QLoRA
-Date: 2026-01-01
+Date: 2026-06-26
 Category: GenAI
 Tags: GenAI, LLM, fine-tuning, transformers
 Slug: peft-lora-qlora-guide

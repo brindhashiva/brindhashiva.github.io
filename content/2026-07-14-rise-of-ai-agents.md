@@ -38,8 +38,6 @@ We're still early. Reliability is the open problem — agents that plan five ste
 
 If you're building with LLMs right now, the chatbot pattern is the floor, not the ceiling.
 
-![1775918663065](image/2026-07-14-rise-of-ai-agents/1775918663065.png)
-
 ---
 
 *If this was useful, consider sharing it with someone wrestling with the same agent-vs-chatbot question.*

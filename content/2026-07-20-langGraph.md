@@ -1,5 +1,5 @@
 Title: I Explored LangGraph—Here's Why It Matters
-Date: 2026-07-21
+Date: 2026-07-20
 Category: GenAI
 Tags: GenAI, LLM, LangGraph, AI Agents
 Slug: i-explored-langgraph-why-it-matters

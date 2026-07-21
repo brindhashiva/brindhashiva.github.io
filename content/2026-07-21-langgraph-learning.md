@@ -2,7 +2,7 @@ Title: Exploring LangGraph: My Learning Experience
 Date: 2026-07-21
 Category: GenAI
 Tags: GenAI, LLM, LangGraph, AI Agents, Stateful Workflows
-Slug: beyond-chains-my-first-deep-dive-into-langgraph
+Slug: Exploring LangGraph: My Learning Experience
 Status: Published
 
 As part of my GenAI learning journey, I explored **LangGraph**, a framework designed for building stateful and dynamic AI agent workflows. Having previously worked with LangChain, I was curious to understand why LangGraph was introduced and how it addresses the limitations of traditional sequential chains. Today's learning was less about writing code and more about understanding a new way of designing intelligent workflows.

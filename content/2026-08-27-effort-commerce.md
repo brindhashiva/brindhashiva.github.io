@@ -1,5 +1,5 @@
 Title: Where EffortCommerce Could Actually Work: Applications and Real-World Use Cases
-Date: 2026-07-24
+Date: 2026-08-27
 Category: Emerging Concepts
 Tags: EffortCommerce, Alternative Economies, Community Systems
 Slug: where-effortcommerce-could-actually-work
